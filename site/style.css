@@ -1,0 +1,51 @@
+/* style.css */
+
+/* Set some basic styles for the body and headings */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1, h4 {
+  color: #333;
+}
+
+/* Style the navigation bar */
+.navbar {
+  background-color: #333;
+  border: none;
+}
+
+.navbar a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #f2f2f2;
+}
+
+/* Add some padding to the container */
+.container {
+  padding: 20px;
+}
+
+/* Style the main content */
+.main-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the error message */
+#error_msg {
+  color: red;
+}
+
+/* Style the Log Out link */
+a[href="logout.php"] {
+  float: right;
+  color: #f00;
+}
